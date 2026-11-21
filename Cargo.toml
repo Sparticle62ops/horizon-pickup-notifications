@@ -2,10 +2,14 @@
 name = "horizon-mod-pickup-notifications"
 version = "1.0.0"
 edition = "2021"
+license = "MIT"
+publish = false
+description = "Notifications when items or experience are picked up: a Rust port of Pickup Notifications."
 
 [lib]
-path = "runtime.rs"
+path = "src/lib.rs"
 
 [dependencies]
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"

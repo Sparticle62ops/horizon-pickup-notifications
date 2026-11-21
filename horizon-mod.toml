@@ -1,0 +1,15 @@
+id = "pickupnotifications"
+name = "Pickup Notifications"
+version = "1.0.0"
+description = """On-screen notifications when the player picks up items or experience orbs, with the same HUD queue, item-name, rarity and enchantment lines, and config options and defaults. A 1:1 Rust port of Roundaround/mc-fabric-pickup-notifications at aa29c0d (MIT, (c) 2021 Evan Steinkerchner); Horizon's Options > Mods page holds the settings."""
+authors = ["Evan Steinkerchner", "sparticle"]
+license = "MIT"
+homepage = "https://github.com/Sparticle62ops/horizon-pickup-notifications"
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "f00125f61f794aaa3d4e950d301f353b35b6ee3d"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
